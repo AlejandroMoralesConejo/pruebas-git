@@ -5,7 +5,7 @@ public class ej5 {
     int maximo = Integer.MIN_VALUE;
     int minimo = Integer.MAX_VALUE;
     int[] numero = new int[10];
-    System.out.println("Introduce números hasta que te salga de la polla");
+    System.out.println("Introduce 10 números");
     for (int i = 0; i < 10; i++) {
       numero[i] = r.nextInt();
       if (numero[i] > maximo) {
